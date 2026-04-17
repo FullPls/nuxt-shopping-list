@@ -1,7 +1,7 @@
-// nuxt.config.ts
+// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  nitro: {
-    preset: 'vercel'
-  },
-  // ... остальные ваши настройки
+   modules: ['@pinia/nuxt'],
+   nitro: { preset: 'vercel' },
+  compatibilityDate: '2025-07-15',
+  devtools: { enabled: true }
 })
