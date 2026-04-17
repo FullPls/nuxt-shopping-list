@@ -1,6 +1,7 @@
+// nuxt.config.ts
 export default defineNuxtConfig({
-  modules: ['@pinia/nuxt'],
   nitro: {
     preset: 'vercel'
   },
-});
+  // ... остальные ваши настройки
+})
