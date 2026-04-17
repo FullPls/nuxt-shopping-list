@@ -1,10 +1,4 @@
 {
-  "builds": [
-    {
-      "src": "nuxt.config.ts",
-      "use": "@vercel/nuxt"
-    }
-  ],
   "headers": [
     {
       "source": "/(.*)",
